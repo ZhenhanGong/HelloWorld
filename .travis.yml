@@ -1,5 +1,5 @@
 sudo: required
-before_install:
+# before_install:
   # - sudo apt-get install libao-dev
   # - sudo apt-get install libcurl4-openssl-dev
   # - chmod +x installMPG123.sh
@@ -13,8 +13,8 @@ compiler:
   - gcc
   
 install:
-  - DEPS_DIR="${TRAVIS_BUILD_DIR}/deps"
-  - mkdir ${DEPS_DIR} && cd ${DEPS_DIR}
+  # - DEPS_DIR="${TRAVIS_BUILD_DIR}/deps"
+  # - mkdir ${DEPS_DIR} && cd ${DEPS_DIR}
   
   - |
     if [[ "${TRAVIS_OS_NAME}" == "linux" ]]; then
@@ -30,4 +30,5 @@ install:
 script:
   - mkdir build
   - cd build
-  - ${DEPS_DIR}/cmake/bin/cmake .. && make
+  # - ${DEPS_DIR}/cmake/bin/cmake .. && make
+  - g++ main.cpp
