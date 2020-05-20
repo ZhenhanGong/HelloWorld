@@ -3,5 +3,30 @@
   "directory": "/Users/marco/WorkSpace/HelloWorld/HelloWorld/build/src",
   "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=c++17 -o CMakeFiles/main.dir/main.cpp.o -c /Users/marco/WorkSpace/HelloWorld/HelloWorld/src/main.cpp",
   "file": "/Users/marco/WorkSpace/HelloWorld/HelloWorld/src/main.cpp"
+},
+{
+  "directory": "/Users/marco/WorkSpace/HelloWorld/HelloWorld/build/tests",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -isystem /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest/include -isystem /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=c++17 -o CMakeFiles/test_main.dir/main.cpp.o -c /Users/marco/WorkSpace/HelloWorld/HelloWorld/tests/main.cpp",
+  "file": "/Users/marco/WorkSpace/HelloWorld/HelloWorld/tests/main.cpp"
+},
+{
+  "directory": "/Users/marco/WorkSpace/HelloWorld/HelloWorld/build/googletest/googlemock",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googlemock/include -I/Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googlemock -isystem /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest/include -isystem /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=c++17 -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googlemock/src/gmock-all.cc",
+  "file": "/Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/Users/marco/WorkSpace/HelloWorld/HelloWorld/build/googletest/googlemock",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -isystem /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googlemock/include -isystem /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googlemock -isystem /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest/include -isystem /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=c++17 -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googlemock/src/gmock_main.cc",
+  "file": "/Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/Users/marco/WorkSpace/HelloWorld/HelloWorld/build/googletest/googletest",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -isystem /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest/include -isystem /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=c++17 -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest/src/gtest_main.cc",
+  "file": "/Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/Users/marco/WorkSpace/HelloWorld/HelloWorld/build/googletest/googletest",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest/include -I/Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=c++17 -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest/src/gtest-all.cc",
+  "file": "/Users/marco/WorkSpace/HelloWorld/HelloWorld/googletest/googletest/src/gtest-all.cc"
 }
 ]
