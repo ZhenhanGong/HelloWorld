@@ -1,0 +1,1 @@
+ADD_DEFINITIONS(-std=c++17)
